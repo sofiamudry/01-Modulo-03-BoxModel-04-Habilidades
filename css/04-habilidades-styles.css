@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(50deg, #26d4c5, #1fc4d6) ;
+    font-family: 'Lato';
+}
+
+.container {
+    background-color: white;
+    box-shadow: 5px 5px 50px grey;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 150px 0px 0px 200px;
+    padding: 0px 30px 30px 30px;
+}
+
+header {
+    font-size: 14px;
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 12px;
+    display: inline-block;
+    color: rgb(144, 144, 144);
+    border: solid 1px rgb(212, 232, 234);
+    padding: 7px 20px 7px 20px;
+    margin-top: 10px;
+    margin-left: 169px; 
+    /* aplico margin left porque no me acepta float como corresponde */
+    vertical-align: middle;
+    text-align: center;
+    /* float: right; */
+    border-radius: 5px;
+}
+
+section>section {
+    /* position relative y absolute para que la linea de color izq magenta se ubique dentro de section */
+    position: relative;
+    border: solid 1px rgb(212, 232, 234);
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+    overflow: hidden;
+}
+
+.background-color-sec-01, .background-color-sec-02, .background-color-sec-03 {
+    display: inline-block;
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.background-color-sec-01 {
+    background-color: #f8629c;
+}
+
+.background-color-sec-02 {
+    background-color: #d88bff;
+}
+
+.background-color-sec-03 {
+    background-color: #fda57c;
+}
+
+h4 {
+    padding-left: 15px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin: 25px 50px 0px 8px;
+}
+
+p {
+    color: gray;
+    padding-left: 15px;
+    margin: 0px 50px 25px 8px;
+    font-size: 12px;
+}
